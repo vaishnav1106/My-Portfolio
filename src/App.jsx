@@ -6,6 +6,7 @@ import meckeysBanner from './assets/meckeys.png';
 import munchiBanner from './assets/munchi.png';
 import recipeBanner from './assets/recipe.png';
 import profilePic from './assets/pic.jpg';
+import resume from './assets/VaishnavResume.pdf'
 
 function App() {
   const projects = [
@@ -126,7 +127,7 @@ function App() {
                 LinkedIn
               </a>
               <a
-                href="#resume"
+                href={resume}
                 className="rounded-full border border-cyan-300/30 bg-cyan-300/10 px-6 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/20"
               >
                 View Resume
@@ -353,16 +354,16 @@ function App() {
             Resume link will be added soon
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300">
-            A resume download button is ready in the design. For now it uses a
-            vacant placeholder, and your real resume link can be added later.
+           Here the resume can be viewed or download if you want as PDF...
+           <br></br>Click the Resume Button
           </p>
 
           <div className="mt-8">
             <a
-              href="#resume"
+              href={resume}
               className="inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
             >
-              Resume Coming Soon
+              Resume
             </a>
           </div>
         </div>
