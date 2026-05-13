@@ -351,7 +351,7 @@ function App() {
             Resume
           </p>
           <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">
-            Resume link will be added soon
+            Resume Is Here
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300">
            Here the resume can be viewed or download if you want as PDF...
